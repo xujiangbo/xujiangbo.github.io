@@ -1,0 +1,13 @@
+/*
+* @Author: to exercise self-con
+* @Date:   2016-11-30 14:34:31
+* @Last Modified by:   to exercise self-con
+* @Last Modified time: 2016-12-01 23:42:04
+*/
+h1{
+			margin: 0 auto;
+			margin-left: 50%;
+			transform: translateX(-25%);
+			color: hotpink;
+			font-size: 30px;
+		}
