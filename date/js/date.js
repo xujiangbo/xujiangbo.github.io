@@ -32,7 +32,7 @@ setInterval(function(){
     return new Date().getFullYear()+'年'+(new Date().getMonth()+1)+'月'+new Date().getDate()+'日'
   })
     $("#house>h2").text(function(){
-    return new Date().getHours()+':'+new Date().getMinutes()+':'+new Date().getSeconds();
+    return new Date().getHours()+':'+(new Date().getMinutes()>9?new Date().getMinutes():'0'+new Date().getMinutes())+':'+(new Date().getSeconds()>9?new Date().getSeconds():'0'+new Date().getSeconds());
   })
 
 },1000)
