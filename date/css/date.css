@@ -3,21 +3,37 @@
 body{
     padding: 0;
     margin: 0;
-    min-height: 1000px;
+    /*min-height: 1000px;*/
     background-color: #7c8389;
 }
 #box{
-    height: 100vh;
+    text-align: center;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+#house{
+    text-align: center;
+}
+h1,h2,h3{
+    margin: 0 auto;
 }
 #date{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: block;
-    margin: 100px auto;
+    margin: 4px auto;
     border: 1px solid #ccc;
     border-radius: 50%;
     background:#fff;
     position: relative;
+    background-image: url(../../images/clock.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .time{
     width: 2px;
