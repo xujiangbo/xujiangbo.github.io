@@ -14,7 +14,6 @@ setInterval(function(){
   var time = date.getHours();
   var min = date.getMinutes();
   var seconds = date.getSeconds();
-  console.log(time+'时'+min+'分'+seconds+'秒');
   var timebox = document.getElementById('time');
   $('.time').css({
       'transform-origin':'50% 100%',
@@ -30,7 +29,7 @@ setInterval(function(){
   })
 
   $("#house>h1").text(function(){
-    return new Date().getFullYear()+'年'+new Date().getMonth()+'月'+new Date().getDate()+'日'
+    return new Date().getFullYear()+'年'+(new Date().getMonth()+1)+'月'+new Date().getDate()+'日'
   })
     $("#house>h2").text(function(){
     return new Date().getHours()+':'+new Date().getMinutes()+':'+new Date().getSeconds();
