@@ -60,3 +60,23 @@ h1,h2,h3{
     top: 0;
     left: 50%;
 }
+
+
+#calendarDate{
+    width: 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+#calendarDate span{
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.monthdate{
+    background-color: #067075;
+    color: #fff;
+    border-radius: 50%;
+}

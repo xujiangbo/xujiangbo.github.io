@@ -36,3 +36,9 @@ setInterval(function(){
   })
 
 },1000)
+
+
+
+//初始化日历表
+var calendar = document.getElementById("calendarDate");
+console.log(Datemonth("calendarDate"));
