@@ -21,6 +21,13 @@ function Datemonth(ele){
   }
   obj.firstindex = new Date(year,curMonth,1).getDay();
   obj.lastindex = new Date(year,curMonth,numday).getDay();
+  //添加头部周一到周日
+  weeks.map(function(ele,index){
+      var str = document.createElement('span');
+      str.textContent = ele;
+      elem.appendChild(str);
+    
+  })
   //循环添加每月1号之前的空a标签
   weeks.map(function(ele,index){
     if(index<obj.firstindex){
